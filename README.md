@@ -2,9 +2,9 @@
 
 * RESUME
 
-  - _ Designed in C# ASP.NET 6.0 MVC
+  - _Designed in C# ASP.NET 6.0 MVC_
   
-  - _ This is a project of an application with authentication, both manually and through some services like Google, Facebook, GitHub and Twitter.
+  - _This is a project of an application with authentication, both manually and through some services like Google, Facebook, GitHub and Twitter._
 
  * Requirements:
  
