@@ -1,0 +1,158 @@
+﻿.container-register {
+    min-height: 100vh;
+    margin-top: 25%;
+}
+.container-form {
+    margin: auto;
+    padding: 10px;
+}
+.container-form img{
+    margin-bottom:25px;
+}
+.container-form span{
+    display:block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.035em;
+    color: #333333;
+    margin-bottom:14px;
+}
+.container-form p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.035em;
+    color: #333333;
+}
+.form-floating {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.035em;
+    color: #828282;
+}
+.bi-envelope-fill {
+    margin-right: 1%;
+}
+.bi-lock-fill {
+    margin-right: 1%;
+}
+.btn {
+    max-width: 416px !important;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #2F80ED !important;
+}
+#choosing {
+    margin-top:30px;
+    text-align:center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.035em;
+    color: #828282;
+}
+#networking{
+    list-style:none;
+    display:block;
+    padding:0;
+    text-align:center;
+    margin: 0;
+}
+.networking-items {
+    display: inline-block;
+    margin: 5px;
+}
+#login {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.035em;
+    color: #828282
+}
+#login a{
+    text-decoration:none;
+    color:#2D9CDB;
+}
+.btn-network{
+    border: none;
+    background-color:transparent;
+}
+#creators span{
+    display:block;
+}
+#creators {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.035em;
+    color: #BDBDBD;
+}
+#creators span p{
+    display:inline-block;
+    text-indent:-999px;
+}
+.form-floating input {
+    border-radius: 8px;
+    border: 1px solid #BDBDBD;
+}
+.error{
+    display:block;
+    color: rgb(255,0,0);
+    font-weight:600;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom:5px;
+    margin-top:-5px;
+}
+@media screen and (min-width:768px) {
+    .container-form {
+        border: 1px solid #BDBDBD;
+        border-radius: 24px;
+        padding: 60px;
+        max-width: 474px;
+        margin-bottom: 20px;
+    }
+    .container-form p, span{
+        padding-right:40px;
+    }
+    .container-form p{
+        margin-bottom:30px;
+    }
+    #choosing, #login {
+        padding-right: 0;
+    }
+    #creators {
+        justify-content: space-evenly;
+    }
+    #creators span p{
+        text-indent:1px;
+    }
+    .container-register {
+        margin-top: 25%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .container-form {
+        margin-top: 7%;
+    }
+    #creators {
+        margin: auto;
+        max-width: 700px;
+    }
+    .container-register {
+        margin-top: 7.5%;
+    }
+
+}

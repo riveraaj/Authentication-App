@@ -1,0 +1,19 @@
+﻿.container-login{
+    margin-bottom:0;
+    margin-top:30%;
+    height:100vh;
+    padding-bottom:0;
+}
+@media screen and (min-width:768px){
+    .container-login {
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+}
+@media screen and (min-width:1024px) {
+    .container-login {
+        margin-bottom: 5%;
+        margin-top: 5%;
+        height:85vh;
+    }
+}
